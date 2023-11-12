@@ -139,7 +139,7 @@ public class GerenciaLocacao {
   }
 
   public void buscarLocacao() {
-  System.out.print("Teste do paulotestes");
+    System.out.print("Teste do paulotestes");
   }
 
 }
