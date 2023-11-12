@@ -48,10 +48,13 @@ public class GerenciaLocacao {
     int pos = 0, pos2 = 0;
 
     for (int i = 0; i < clientes.size(); i++) {
-      System.out.println("Nome: " + clientes.get(i).getNome());
-      System.out.println("CPF: " + clientes.get(i).getCpf());
-      System.out.println("");
-      pos = i;
+      if (!clientes.isEmpty()) {
+
+        System.out.println("Nome: " + clientes.get(i).getNome());
+        System.out.println("CPF: " + clientes.get(i).getCpf());
+        System.out.println("");
+        pos = i;
+      }
     }
     System.out.println("Digite o CPF do cliente: ");
     String buscacpf = sc.nextLine();
@@ -135,7 +138,6 @@ public class GerenciaLocacao {
       System.out.println("Valor da locacao: " + locacoes.get(i).getValor());
 
     }
-
   }
 
   public void buscarLocacao() {
