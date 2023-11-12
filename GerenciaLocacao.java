@@ -127,7 +127,6 @@ public class GerenciaLocacao {
     System.out.println("Dados da locacao.");
     System.out.println("");
     for (int i = 0; i < locacoes.size(); i++) {
-
       System.out.println("Nome do cliente: " + locacoes.get(i).getCliente().getNome());
       System.out.println("CPF cliente: " + locacoes.get(i).getCliente().getCpf());
       System.out.println("Marca do veiculo: " + locacoes.get(i).getVeiculo().getMarca());
@@ -136,12 +135,11 @@ public class GerenciaLocacao {
       System.out.println("Inicio da locacao: " + locacoes.get(i).getDataInicio());
       System.out.println("Final da locacao: " + locacoes.get(i).getDataFinal());
       System.out.println("Valor da locacao: " + locacoes.get(i).getValor());
-
     }
   }
 
-  public void buscarLocacao(Scanner sc, ArrayList<Locacao> locacoes) {
-    String buscacpf = sc.nextLine();
+  public void buscarLocacao() {
+
   }
 
 }
