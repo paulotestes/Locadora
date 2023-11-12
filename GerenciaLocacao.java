@@ -139,7 +139,7 @@ public class GerenciaLocacao {
   }
 
   public void buscarLocacao() {
-
+    System.out.print("Esse e um teste de commit");
   }
 
 }
