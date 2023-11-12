@@ -140,6 +140,8 @@ public class GerenciaLocacao {
 
   public void buscarLocacao() {
     System.out.println("Esse commit foi feito no vscode.");
+    System.out.println("Esse commit foi feito no git por paulo testes.");
+  
   }
 
 }
