@@ -139,6 +139,7 @@ public class GerenciaLocacao {
   }
 
   public void buscarLocacao() {
+
   }
 
 }
