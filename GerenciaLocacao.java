@@ -140,8 +140,8 @@ public class GerenciaLocacao {
     }
   }
 
-  public void buscarLocacao() {
-
+  public void buscarLocacao(Scanner sc, ArrayList<Locacao> locacoes) {
+    String buscacpf = sc.nextLine();
   }
 
 }
