@@ -139,6 +139,7 @@ public class GerenciaLocacao {
   }
 
   public void buscarLocacao() {
+    System.out.print("Teste de commit da conta paulotestes."
   }
 
 }
